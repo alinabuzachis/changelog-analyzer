@@ -1,0 +1,8 @@
+GitPython
+dash
+plotly
+pandas
+packaging
+pyyaml
+radon
+kaleido

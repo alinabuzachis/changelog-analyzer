@@ -1,0 +1,226 @@
+limit: 20
+collections:
+  - name: amazon.aws
+    github_repo: https://github.com/ansible-collections/amazon.aws
+    # min_tag: v8.0.0  # Fetch tags greater than or equal to v1.0.0
+    label: cloud
+  - name: community.aws
+    github_repo: https://github.com/ansible-collections/community.aws
+    # min_tag: v8.0.0
+    label: cloud
+  - name: cloud.terraform
+    github_repo: https://github.com/ansible-collections/cloud.terraform
+    label: cloud
+  - name: community.windows
+    github_repo: https://github.com/ansible-collections/community.windows
+    label: infra
+  - name: arista.eos
+    github_repo: https://github.com/ansible-collections/arista.eos
+    label: network
+  - name: azure
+    github_repo: https://github.com/ansible-collections/azure
+    label: cloud
+  - name: vmware.vmware_rest
+    github_repo: https://github.com/ansible-collections/vmware.vmware_rest
+    label: cloud
+  - name: community.general
+    github_repo: https://github.com/ansible-collections/community.general
+    label: other
+  - name: ansible.windows
+    github_repo: https://github.com/ansible-collections/ansible.windows
+    label: infra
+  - name: ansible.posix
+    github_repo: https://github.com/ansible-collections/ansible.posix
+    label: infra
+  - name: kubernetes.core
+    github_repo: https://github.com/ansible-collections/kubernetes.core
+    label: cloud
+  - name: community.docker
+    github_repo: https://github.com/ansible-collections/community.docker
+    label: cloud
+  - name: community.zabbix
+    github_repo: https://github.com/ansible-collections/community.zabbix
+    label: infra
+  - name: servicenow.itsm
+    github_repo: https://github.com/ansible-collections/servicenow.itsm
+    label: infra
+  - name: community.vmware
+    github_repo: https://github.com/ansible-collections/community.vmware
+    label: cloud
+  - name: community.mongodb
+    github_repo: https://github.com/ansible-collections/community.mongodb
+    label: infra
+  - name: community.hashi_vault
+    github_repo: https://github.com/ansible-collections/community.hashi_vault
+    label: infra
+  - name: microsoft.ad
+    github_repo: https://github.com/ansible-collections/microsoft.ad
+    label: infra
+  - name: ansible.netcommon
+    github_repo: https://github.com/ansible-collections/ansible.netcommon
+    label: network
+  - name: community.grafana
+    github_repo: https://github.com/ansible-collections/community.grafana
+    label: other
+  - name: ansible-consul
+    github_repo: https://github.com/ansible-collections/ansible-consul
+    label: network
+  - name: google.cloud
+    github_repo: https://github.com/ansible-collections/google.cloud
+    label: cloud
+  - name: community.network
+    github_repo: https://github.com/ansible-collections/community.network
+    label: network
+  - name: community.routeros
+    github_repo: https://github.com/ansible-collections/community.routeros
+    label: network
+  - name: junipernetworks.junos
+    github_repo: https://github.com/ansible-collections/junipernetworks.junos
+    label: network
+  - name: cisco.ios
+    github_repo: https://github.com/ansible-collections/cisco.ios
+    label: network
+  - name: community.dns
+    github_repo: https://github.com/ansible-collections/community.dns
+    label: infra
+  - name: cisco.nxos
+    github_repo: https://github.com/ansible-collections/cisco.nxos
+    label: network
+  - name: ibm_zos_core
+    github_repo: https://github.com/ansible-collections/ibm_zos_core
+    label: infra
+  - name: dellemc.enterprise_sonic
+    github_repo: https://github.com/ansible-collections/dellemc.enterprise_sonic
+    label: network
+  - name: hetzner.hcloud
+    github_repo: https://github.com/ansible-collections/hetzner.hcloud
+    label: cloud
+  - name: cisco.iosxr
+    github_repo: https://github.com/ansible-collections/cisco.iosxr
+    label: network
+  - name: community.postgresql
+    github_repo: https://github.com/ansible-collections/community.postgresql
+    label: infra
+  - name: netapp.ontap
+    github_repo: https://github.com/ansible-collections/netapp.ontap
+    label: infra
+  - name: ansible.utils
+    github_repo: https://github.com/ansible-collections/ansible.utils
+    label: other
+  - name: cloud.common
+    github_repo: https://github.com/ansible-collections/cloud.common
+    label: cloud
+  - name: ibm_zos_cics
+    github_repo: https://github.com/ansible-collections/ibm_zos_cics
+    label: infra
+  - name: ansible.yang
+    github_repo: https://github.com/ansible-collections/ansible.yang
+    label: network
+  - name: vmware.vmware
+    github_repo: https://github.com/ansible-collections/vmware.vmware
+    label: cloud
+  - name: cisco.asa
+    github_repo: https://github.com/ansible-collections/cisco.asa
+    label: network
+  - name: ansible.scm
+    github_repo: https://github.com/ansible-collections/ansible.scm
+    label: other
+  - name: trendmicro.deepsec
+    github_repo: https://github.com/ansible-collections/trendmicro.deepsec
+    label: security
+  - name: ansible.network
+    github_repo: https://github.com/ansible-collections/ansible.network
+    label: network
+  - name: Datadog
+    github_repo: https://github.com/ansible-collections/Datadog
+    label: other
+  - name: ansible.snmp
+    github_repo: https://github.com/ansible-collections/ansible.snmp
+    label: network
+  - name: ansible.security
+    github_repo: https://github.com/ansible-collections/ansible.security
+    label: security
+  - name: splunk.es
+    github_repo: https://github.com/ansible-collections/splunk.es
+    label: security
+  - name: community.ciscosmb
+    github_repo: https://github.com/ansible-collections/community.ciscosmb
+    label: edge
+  - name: community.sonic
+    github_repo: https://github.com/ansible-collections/community.sonic
+    label: network
+  - name: ibm.qradar
+    github_repo: https://github.com/ansible-collections/ibm.qradar
+    label: security
+  - name: community.sap
+    github_repo: https://github.com/ansible-collections/community.sap
+    label: infra
+  - name: netapp.aws
+    github_repo: https://github.com/ansible-collections/netapp.aws
+    label: infra
+  - name: amazon.cloud
+    github_repo: https://github.com/ansible-collections/amazon.cloud
+    label: cloud
+  - name: ibm_zos_sysauto  # Latest release does not have python files
+    github_repo: https://github.com/ansible-collections/ibm_zos_sysauto
+    label: infra
+  - name: ibm_zos_ims
+    github_repo: https://github.com/ansible-collections/ibm_zos_ims
+    label: infra
+  - name: netapp.um_info
+    github_repo: https://github.com/ansible-collections/netapp.um_info
+    label: infra
+  - name: netapp.cloudmanager
+    github_repo: https://github.com/ansible-collections/netapp.cloudmanager
+    label: infra
+  - name: ibm.ds8000
+    github_repo: https://github.com/ansible-collections/ibm.ds8000
+    label: infra
+  - name: netapp.storagegrid
+    github_repo: https://github.com/ansible-collections/netapp.storagegrid
+    label: infra
+  - name: netapp.azure
+    github_repo: https://github.com/ansible-collections/netapp.azure
+    label: infra
+  - name: community.kubevirt
+    github_repo: https://github.com/ansible-collections/community.kubevirt
+    label: cloud
+  - name: ansible-aci
+    github_repo: https://github.com/CiscoDevNet/ansible-aci
+    label: network
+  - name: aoscx-ansible-collection
+    github_repo: https://github.com/aruba/aoscx-ansible-collection
+    label: network
+  - name: h3c_open.comware
+    github_repo: https://github.com/H3C/h3c_open.comware
+    label: network
+  - name: dellemc.enterprise_sonic
+    github_repo: https://github.com/ansible-collections/dellemc.enterprise_sonic
+    label: network
+  - name: dashboard-api-ansible
+    github_repo: https://github.com/meraki/dashboard-api-ansible
+    label: network
+  - name: ansible-mso
+    github_repo: https://github.com/CiscoDevNet/ansible-mso
+    label: network
+  - name: ansible-nd
+    github_repo: https://github.com/CiscoDevNet/ansible-nd
+    label: network
+  - name: pan-os-ansible
+    github_repo: https://github.com/PaloAltoNetworks/pan-os-ansible
+    label: network
+  - name: ansible-galaxy-fortianalyzer-collection
+    github_repo: https://github.com/fortinet-ansible-dev/ansible-galaxy-fortianalyzer-collection
+    label: network
+  - name: ansible-galaxy-fortimanager-collection
+    github_repo: https://github.com/fortinet-ansible-dev/ansible-galaxy-fortimanager-collection
+    label: network
+  - name: ansible-galaxy-fortios-collection
+    github_repo: https://github.com/fortinet-ansible-dev/ansible-galaxy-fortios-collection
+    label: network
+  - name: ansible-galaxy-fortiswitch-collection
+    github_repo: https://github.com/fortinet-ansible-dev/ansible-galaxy-fortiswitch-collection
+    label: network
+  - name: ansible-nso
+    github_repo: https://github.com/CiscoDevNet/ansible-nso
+    label: network
